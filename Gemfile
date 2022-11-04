@@ -35,6 +35,8 @@ group :development do
   gem "rerun"
 
   gem "pry"
+
+  
 end
 
 # These gems will only be used when we are running tests
@@ -45,4 +47,4 @@ group :test do
   gem "rspec-json_expectations", "~> 2.2"
 end
 
-
+gem "puma"
